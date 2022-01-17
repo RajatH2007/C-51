@@ -1,0 +1,54 @@
+h1{
+    color : red
+}
+
+/* *{
+    border: solid;
+    border-color: purple;
+}*/
+
+.header{
+    background-color: peachpuff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description{
+    background-color: palegoldenrod;
+    display : flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    background-color: peachpuff;
+    display : flex;
+    justify-content : flex-end;
+}
+
+.fu{
+    border: solid;
+    border-radius: 100px;
+    border-color: coral;
+    justify-content : center;
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    padding:10px
+}
+
+.item{
+    background-color:chocolate;
+    display : flex;
+}
+
+body{
+    background-color: rgb(184, 158, 212);
+}
